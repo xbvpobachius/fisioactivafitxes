@@ -1,0 +1,181 @@
+[
+  {
+    "id": "1",
+    "name": "Ana",
+    "surname": "García Pérez",
+    "phone": "611223344",
+    "dni": "12345678A",
+    "birthDate": "1985-04-12T00:00:00.000Z",
+    "address": "Calle Falsa 123",
+    "city": "Madrid",
+    "postalCode": "28001",
+    "email": "ana.garcia@email.com",
+    "profession": "Abogada",
+    "pathologies": "Migrañas ocasionales",
+    "surgicalInterventions": "Apendicectomía en 2005",
+    "medication": "Ibuprofeno cuando es necesario",
+    "familyHistory": "Madre con hipertensión",
+    "reasonForConsultation": "Dolor lumbar recurrente por mala postura en el trabajo.",
+    "history": [
+      {
+        "id": "v1",
+        "date": "2023-10-15T00:00:00.000Z",
+        "treatmentNotes": "Primera evaluación. Se recomienda fortalecimiento del core.",
+        "price": 50
+      },
+      {
+        "id": "v2",
+        "date": "2023-10-22T00:00:00.000Z",
+        "treatmentNotes": "Ejercicios de estiramiento. Menor rigidez.",
+        "price": 50
+      },
+      {
+        "id": "v3",
+        "date": "2023-11-05T00:00:00.000Z",
+        "treatmentNotes": "Terapia manual. Notable mejoría.",
+        "price": 55
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "name": "Carlos",
+    "surname": "Sánchez López",
+    "phone": "699887766",
+    "dni": "87654321B",
+    "birthDate": "1992-09-20T00:00:00.000Z",
+    "address": "Avenida Siempre Viva 742",
+    "city": "Barcelona",
+    "postalCode": "08001",
+    "email": "carlos.sanchez@email.com",
+    "profession": "Desarrollador de Software",
+    "pathologies": "Asma",
+    "surgicalInterventions": "Ninguna",
+    "medication": "Ventolin ocasional",
+    "familyHistory": "Sin antecedentes de relevancia",
+    "reasonForConsultation": "Tendinitis en la muñeca derecha (codo de tenista).",
+    "history": [
+      {
+        "id": "v4",
+        "date": "2024-01-20T00:00:00.000Z",
+        "treatmentNotes": "Evaluación inicial, dolor al extender la muñeca.",
+        "price": 50
+      },
+      {
+        "id": "v5",
+        "date": "2024-01-27T00:00:00.000Z",
+        "treatmentNotes": "Se aplica ultrasonido y se recomiendan ejercicios.",
+        "price": 50
+      }
+    ]
+  },
+  {
+    "name": "Xavier",
+    "surname": "Bou",
+    "birthDate": "2025-09-01T22:00:00.000Z",
+    "dni": "21758546V",
+    "phone": "681242782",
+    "email": "testonewebs@gmail.com",
+    "address": "Passeig de Sant Joan Bosco, 42",
+    "city": "Barcelona",
+    "postalCode": "08017",
+    "profession": "profe",
+    "pathologies": "eth",
+    "surgicalInterventions": "mano",
+    "medication": "ibuptrofeno",
+    "familyHistory": "malamties",
+    "reasonForConsultation": "sida",
+    "id": "3",
+    "history": [
+      {
+        "date": "2025-09-10T22:00:00.000Z",
+        "treatmentNotes": "Tiene ostepatia y canceeer",
+        "price": 80,
+        "id": "v1757077541966"
+      }
+    ]
+  },
+  {
+    "name": "Xavier",
+    "surname": "Bo",
+    "birthDate": "2025-09-02T22:00:00.000Z",
+    "dni": "21758546V",
+    "phone": "681242782",
+    "email": "xavier.bouvalles@gmail.com",
+    "address": "Passeig de Sant Joan Bosco, 42",
+    "city": "Barcelona",
+    "postalCode": "08017",
+    "profession": "profe",
+    "pathologies": "profe",
+    "surgicalInterventions": "profe",
+    "medication": "profe",
+    "familyHistory": "profe",
+    "reasonForConsultation": "profe",
+    "id": "4",
+    "history": []
+  },
+  {
+    "name": "josep",
+    "surname": "salud",
+    "birthDate": "2009-09-03T22:00:00.000Z",
+    "dni": "21758546V",
+    "phone": "681242782",
+    "email": "xavier.bouvalles@gmail.com",
+    "address": "Passeig de Sant Joan Bosco, 42",
+    "city": "Barcelona",
+    "postalCode": "08017",
+    "profession": "profe",
+    "pathologies": "profe",
+    "surgicalInterventions": "profe",
+    "medication": "profe",
+    "familyHistory": ".",
+    "reasonForConsultation": "profe",
+    "id": "5",
+    "history": []
+  },
+  {
+    "name": "josep",
+    "surname": "salud",
+    "birthDate": "2009-09-03T22:00:00.000Z",
+    "dni": "21758546V",
+    "phone": "681242782",
+    "email": "xavier.bouvalles@gmail.com",
+    "address": "Passeig de Sant Joan Bosco, 42",
+    "city": "Barcelona",
+    "postalCode": "08017",
+    "profession": "profe",
+    "pathologies": "profe",
+    "surgicalInterventions": "profe",
+    "medication": "profe",
+    "familyHistory": ".",
+    "reasonForConsultation": "profe",
+    "id": "6",
+    "history": [
+      {
+        "date": "2025-09-19T22:00:00.000Z",
+        "treatmentNotes": "tractament privat per mal d'esquena",
+        "price": 80,
+        "id": "v1757178591095"
+      }
+    ]
+  },
+  {
+    "name": "maria",
+    "surname": "bou",
+    "birthDate": "2025-10-08T22:00:00.000Z",
+    "dni": "21758234C",
+    "phone": "681242743",
+    "email": "huan@gmail.com",
+    "address": "joserp",
+    "city": "pla",
+    "postalCode": "07645",
+    "profession": "barcelojna",
+    "pathologies": "barcelojna",
+    "surgicalInterventions": "barcelojna",
+    "medication": "barcelojna",
+    "familyHistory": "barcelojna",
+    "reasonForConsultation": "barcelojna",
+    "id": "7",
+    "history": []
+  }
+]
