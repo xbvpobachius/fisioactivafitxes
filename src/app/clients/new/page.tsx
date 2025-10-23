@@ -9,10 +9,10 @@ import {
   CardDescription,
 } from '@/components/ui/card';
 import { useSearchParams } from 'next/navigation';
-import { useEffect, useState } from 'react';
+import { useEffect, useState, Suspense } from 'react';
 import { completePendingRecord } from '@/services/pendingRecordsService';
 
-export default function NewClientPage() {
+function NewClientPageContent() {
   const searchParams = useSearchParams();
   const [initialData, setInitialData] = useState<{ name?: string; surname?: string } | undefined>();
   const [pendingId, setPendingId] = useState<string | null>(null);
@@ -57,5 +57,26 @@ export default function NewClientPage() {
         </CardContent>
       </Card>
     </main>
+  );
+}
+
+export default function NewClientPage() {
+  return (
+    <Suspense fallback={
+      <main className="container mx-auto px-4 py-8">
+        <Card className="max-w-4xl mx-auto shadow-lg">
+          <CardHeader>
+            <CardTitle className="text-2xl font-headline">
+              Crear Nova Fitxa de Client
+            </CardTitle>
+            <CardDescription>
+              Carregant...
+            </CardDescription>
+          </CardHeader>
+        </Card>
+      </main>
+    }>
+      <NewClientPageContent />
+    </Suspense>
   );
 }
